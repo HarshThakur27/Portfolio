@@ -17,6 +17,30 @@
     overflow-x: hidden;
 }
 
+@media (max-width: 700px) {
+  .navbar{
+    width: 700px;
+    padding-left: 20px;
+      
+  }
+  .conatiner {
+    width:700px;
+    
+  }
+  /* .hero-section{
+    
+    background-color: #0056b3;
+   
+  } */
+  .hero-section-left{
+    margin-right: 180px;
+    padding-right: 300px;
+  }
+
+  
+  
+}
+
 .container{
     width:1200px;
     margin:0 auto;
@@ -127,6 +151,8 @@ a{
 
 .btn-pink {
     background-color: var(--bgOrange);
+    font-size: x-large;
+    font-weight: 600;
     width: fit-content;
     color: white;
     padding: 0.8rem 2.3rem;
@@ -142,6 +168,7 @@ a{
   .btn-pink::before {
     content: "";
     position: absolute;
+    font-display:initial;
     background-color: #fff;
     top: 0px;
     left: 0;
@@ -351,7 +378,7 @@ a{
  }
  .project-number{
   position: absolute;
-  font-size: 200px;
+  font-size: 40px;
   font-weight: 600;
   color:white;
   z-index: 10;
@@ -360,6 +387,7 @@ a{
  .project-card:hover .project-number{
   display: block;
  }
+
 
  .project-number-right{
   right:-40px;
@@ -401,14 +429,14 @@ a{
  }
 
  .project-heading{
-  font-size: 90px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 3rem;
  }
 
  .project-sub-heading{
   width:70%;
-  font-size: 26px;
+  font-size: 20px;
   font-style:italic;
  }
 
@@ -454,14 +482,15 @@ a{
   background-image: url(Project4.png);
  } */
 
-  @media (max-width:1300px) {
+  @media (max-width:700px) {
     .page-header{
       padding-top: 30px;
       color:var(--bgOrange);
-      text-align: center;
+      text-align: left;
       font-size:40px;
     }
     .project-container{
+      width: 650px;
       padding:5px;
       margin:10px;
       gap:60px;
@@ -512,6 +541,7 @@ a{
   .skills-container{
     position:relative;
     display:flex;
+    flex-direction: row;
     padding:5rem;
     margin:10rem auto;
   
@@ -528,11 +558,12 @@ a{
 .skill-container-right{
 
   display:flex;
+  margin-right: 60px;
   flex-wrap:wrap;
   width:50%;
   position:relative;
   gap:2rem;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .skill-fade-text{
@@ -780,14 +811,20 @@ footer{
 }
 
 /* Media queries for responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
+  h1{
+    margin-right: 600px;
+  }
   .education-container {
+    width: 650px;
       flex-direction: column;
       text-align: center;
+      margin-left: 0px;
   }
 
   .education-image {
       margin-bottom: 20px;
+      width: 500px;
   }
 
   .education-details {
@@ -815,19 +852,21 @@ footer{
 
 /* Flex container for certification cards */
 .certifications-container {
+  /* margin-right: 600px; */
   display: flex;
-  justify-content: center;
+  /* justify-content: right; */
   gap: 30px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 /* Card styling */
 .certification-card {
+
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: 320px;
+  
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -886,7 +925,7 @@ footer{
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .certifications-container {
       flex-direction: column;
       align-items: center;
@@ -917,6 +956,7 @@ footer{
 }
 
 .contact-section p {
+  
   font-size: 18px;
   color: #666;
   margin-bottom: 40px;
@@ -925,6 +965,8 @@ footer{
 /* Flex container for contact items */
 .contact-container {
   display: flex;
+  flex-direction: row;
+
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
@@ -967,15 +1009,39 @@ footer{
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
+  /* p{
+    margin-right: 550px;
+  } */
   .contact-container {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
   }
 
   .contact-item {
       width: 100%;
       max-width: 250px;
+  }
+  .skills-container{
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .certifications-container{
+    width: 650px;
+    justify-content: center;
+    
+  }
+  .contact-container{
+    width: 650px;
+    justify-content: center;
+  }
+  .icon-wrapper{
+    margin-right: 300px;
+  }
+  .footer-bottom{
+    margin-right: 200px;
   }
 }
 
