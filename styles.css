@@ -17,14 +17,14 @@
     overflow-x: hidden;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 550px) {
   .navbar{
-    width: 700px;
+    width: 550px;
     padding-left: 20px;
       
   }
   .conatiner {
-    width:700px;
+    width:550px;
     
   }
   /* .hero-section{
@@ -490,7 +490,8 @@ a{
       font-size:40px;
     }
     .project-container{
-      width: 650px;
+      width: 450px;
+      height:800px;
       padding:5px;
       margin:10px;
       gap:60px;
@@ -811,20 +812,24 @@ footer{
 }
 
 /* Media queries for responsiveness */
-@media (max-width: 700px) {
+@media (max-width: 550px) {
   h1{
     margin-right: 600px;
   }
   .education-container {
-    width: 650px;
+    width: 550px;
       flex-direction: column;
-      text-align: center;
-      margin-left: 0px;
+      /* text-align: center; */
+      margin-left: 0;
   }
 
-  .education-image {
+  .ignou {
       margin-bottom: 20px;
+      margin-right: 50px;
+      /* margin-right: 90px; */
+      padding: 0px;
       width: 500px;
+      height:200px;
   }
 
   .education-details {
@@ -925,13 +930,14 @@ footer{
 }
 
 /* Responsive Design */
-@media (max-width: 700px) {
+@media (max-width: 550px) {
   .certifications-container {
       flex-direction: column;
       align-items: center;
   }
 
   .certification-card {
+      margin-right: 100px;
       width: 100%;
       max-width: 340px;
   }
@@ -1009,21 +1015,33 @@ footer{
 }
 
 /* Responsive Design */
-@media (max-width: 700px) {
+@media (max-width: 550px) {
   /* p{
     margin-right: 550px;
   } */
+   .hh{
+    width: 450px;
+   }
+   .p2{
+    width: 450px;
+   
+   }
   .contact-container {
+      width: 550px;
       flex-direction: row;
-      align-items: center;
+      /* align-items: center; */
   }
 
   .contact-item {
-      width: 100%;
-      max-width: 250px;
+    margin-right: 60px;
+    max-width: 200px;
+    padding-right: 90px;
+    
   }
   .skills-container{
-    width: 1250px;
+    width: full;
+    margin: 0;
+    padding-left: 0;
     display: flex;
     flex-direction: column;
     
@@ -1033,10 +1051,7 @@ footer{
     justify-content: center;
     
   }
-  .contact-container{
-    width: 650px;
-    justify-content: center;
-  }
+
   .icon-wrapper{
     margin-right: 300px;
   }
