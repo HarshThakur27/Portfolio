@@ -20,7 +20,7 @@
 @media (max-width: 400px) {
   .navbar{
     width: 350px;
-    padding-left: 30px;
+    padding-left: 3px;
       
   }
   .conatiner {
@@ -28,20 +28,39 @@
     
   }
   .logo-container{
-    width:60px;
+    width:100px;
     padding-right: 2px;
+
+    margin-right: 30px;
   }
-  .logo-text{
-    width: 50px;
-    font-size: small;
-    font-weight: 100;
+  #logo-text{
+    
+    font-size: 20px;
+    font-weight: bold;
+ 
   }
   .nav-items{
-    font-size: small;
-    width: 300px;
-    padding-right: 150px;
+    font-size:smaller;
+   
+    width: 200px;
+    margin-right: 250px;
+   
     gap:1;
     
+  }
+  #pr{
+    font-size: 16px;
+    
+    margin-right: 22px;
+    width:30px;
+  }
+  #sk{
+    font-size:  16px;
+    width:30px;
+  }
+  #co{
+    font-size: 16px;
+    width:30px;
   }
   .hero-section{
      width: 400px;
@@ -944,26 +963,25 @@ footer{
 /* Media queries for responsiveness */
 @media (max-width: 400px) {
   h1{
-    margin-right: 100px;
+    margin-right: 30px;
   }
   .education-container {
     width: 350px;
-      flex-direction: column;
+      
       /* text-align: center; */
-      margin-left: 0;
+      margin-right: 50px;
   }
 
   .ignou {
-      margin-bottom: 20px;
-      margin-right: 50px;
-      /* margin-right: 90px; */
-      padding: 0px;
-      width: 200px;
-      height:100px;
+      margin-top: 0;
+      padding: 10px;
+      width: 350px;
+      height:300px;
+      border-radius: 20px;
   }
 
   .education-details {
-      margin-left: 0;
+      margin-left: 40px;
   }
 }
 
@@ -1263,3 +1281,4 @@ footer{
   font-size: 14px;
   color: #aaa;
 }
+
