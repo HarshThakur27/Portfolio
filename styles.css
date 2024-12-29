@@ -17,25 +17,152 @@
     overflow-x: hidden;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 400px) {
   .navbar{
-    width: 550px;
-    padding-left: 20px;
+    width: 350px;
+    padding-left: 30px;
       
   }
   .conatiner {
-    width:550px;
+    width:400px;
     
   }
-  /* .hero-section{
+  .logo-container{
+    width:60px;
+    padding-right: 2px;
+  }
+  .logo-text{
+    width: 50px;
+    font-size: small;
+    font-weight: 100;
+  }
+  .nav-items{
+    font-size: small;
+    width: 300px;
+    padding-right: 150px;
+    gap:1;
     
-    background-color: #0056b3;
+  }
+  .hero-section{
+     width: 400px;
+     
    
-  } */
-  .hero-section-left{
-    margin-right: 180px;
-    padding-right: 300px;
   }
+  .hero-section-left{
+    /* justify-content: right;
+      align-items: start; */
+      /* text-align: left;
+      te */
+     
+      margin-right: 700px;
+    /* padding-right: 30px; */
+  }
+  .hero-section-heading{
+    width: 470px;
+    font-weight: 100;
+    font-size: medium;
+  }
+  .hero-section-sub-heading{
+    /* width:350px; */
+    font-size:medium;
+  }
+  .hero-section-description{
+    margin-right: 190px;
+    /* width: 400px; */
+    /* overflow-x: auto;
+    height: 70px;  */
+    font-size: small;
+  }
+  .role{
+   
+    font-size:x-large;
+  }
+  .projects{
+    width: 400px;
+  }
+  #project1{
+    width: 350px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  #project2{
+    width: 350px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  #skills{
+    width: 850px;
+    padding: 9px;
+    margin-right: 3px;
+    margin-top: 90px;
+  }
+  .education-section{
+    width: 400px;
+  }
+  .education-container{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ignou{
+    width: 340px;
+  }
+  .education-details{
+    margin-top: 10px;
+    margin-right: 70px;
+    width:300px;
+  }
+  .certifications-section{
+    margin-top: 50px;
+    width:400px;
+  }
+  .certifications-container{
+    padding-right: 200px;
+    width: 380px;
+  }
+  #contactme{
+    margin-top: 50px;
+    width:400px;
+  }
+  #contactme h1 {
+    padding-right: 70px;
+  }
+  #contactme p {
+    width:350px;
+    margin-right: 10px;
+  }
+  .contact-container{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    gap:0;
+    
+  }
+  .contact-item{
+    padding-right: 150px;
+    gap:0;
+    width: 190px;
+  }
+  .contact-icon{
+    width:70px;
+  }
+  .contact-link{
+    width:80px;
+  }
+
+  .footer{
+    width: 400px;
+    height:300px;
+  
+  }
+  
+
+  .footer-brand{
+    width: 200px;
+    height: 30px;
+  }
+  
 
   
   
@@ -366,7 +493,7 @@ a{
   left:0;
   right:0;
   bottom:0;
-  background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
+  /* background: linear-gradient(45deg, #343d68, #343d68be, #343d687c); */
   transform:scaleX(0);
   transform-origin: left;
   transition:all  0.4s;
@@ -482,7 +609,7 @@ a{
   background-image: url(Project4.png);
  } */
 
-  @media (max-width:700px) {
+  @media (max-width:650px) {
     .page-header{
       padding-top: 30px;
       color:var(--bgOrange);
@@ -719,6 +846,9 @@ footer{
 
 .link-wrapper{
   display:flex;
+
+  width: 200px;
+  margin-right: 60px;
   gap:1.2rem;
 }
 
@@ -812,12 +942,12 @@ footer{
 }
 
 /* Media queries for responsiveness */
-@media (max-width: 550px) {
+@media (max-width: 400px) {
   h1{
-    margin-right: 600px;
+    margin-right: 100px;
   }
   .education-container {
-    width: 550px;
+    width: 350px;
       flex-direction: column;
       /* text-align: center; */
       margin-left: 0;
@@ -828,8 +958,8 @@ footer{
       margin-right: 50px;
       /* margin-right: 90px; */
       padding: 0px;
-      width: 500px;
-      height:200px;
+      width: 200px;
+      height:100px;
   }
 
   .education-details {
