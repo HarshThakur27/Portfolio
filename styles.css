@@ -116,6 +116,8 @@
   }
   .project-heading{
     font-size: 20px;
+    width:150px;
+    height:30px;
     color:whitesmoke;
   }
   .project-skills-container{
@@ -140,6 +142,7 @@
     margin-right: 10px;
     color:burlywood;
     font-weight: bold;
+    width:250px;
     height:290px
     
   }
@@ -157,7 +160,7 @@
   }
   .project-skill-container{
     margin-top: 0;
-    width:180px;
+    width:200px;
     height:15px
    
   }
