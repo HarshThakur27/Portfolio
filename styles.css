@@ -128,18 +128,19 @@
     
   }
   .project-skill{
-    width:10vw;
-    height: 5vh;
+    width:20px;
+    height: 32px;
   }
   .btn-group{
     width:10vw;
     height:4vh;
   }
   .project-sub-heading{
-    font-size: 10px;
+    font-size: 5px;
     margin-right: 10px;
     color:burlywood;
     font-weight: bold;
+    height:290px
     
   }
   .page-header{
@@ -156,6 +157,8 @@
   }
   .project-skill-container{
     margin-top: 0;
+    width:180px;
+    height:15px
    
   }
   #skills{
@@ -165,17 +168,20 @@
     margin-top: 90px;
   }
   .education-section{
-    width: 100vw;
+    width: 370px;
+    margin-right: 20px;
   }
   .education-container{
-    width:95vw;
+    width:350px;
+    margin-right: 50px;
+    padding-right: 50px;
     display: flex;
     flex-direction: column;
-    padding: 4px;
-    margin-right: 20px;
+    
   }
   .ignou{
     width: 80vw;
+    margin-right: 10px;
   }
   .education-details{
     margin-top: 10px;
@@ -231,6 +237,10 @@
   .footer-brand{
     width: 200px;
     height: 30px;
+  }
+  .footer-wrapper{
+    width:90vw;
+    display:flex;
   }
   
 
