@@ -1,6 +1,11 @@
  @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ 
 
-*{
+
+ *{
   margin:0;
   padding:0;
   box-sizing:border-box;
@@ -18,8 +23,15 @@
     overflow-x: hidden;
 }
 
+
+
+
 @media (max-width: 380px) {
+  #wrapper{
+    scroll-behavior: smooth;
+  }
   .navbar{
+    scroll-behavior: smooth;
     width: 100vw;
     padding: 3px;
       
@@ -103,6 +115,7 @@
   }
   .projects{
     width: 100vw;
+    scroll-behavior: smooth;
   }
   #project1{
     width: 80vw;
@@ -116,9 +129,10 @@
   }
   .project-heading{
     font-size: 20px;
+   
     width:150px;
     height:30px;
-    color:whitesmoke;
+    color:gold;
   }
   .project-skills-container{
     margin-bottom: 20px;
@@ -140,7 +154,7 @@
   .project-sub-heading{
     font-size: 5px;
     margin-right: 10px;
-    color:burlywood;
+    color:white;
     font-weight: bold;
     width:250px;
     height:290px
@@ -1345,3 +1359,131 @@ footer{
   font-size: 14px;
   color: #aaa;
 }
+
+
+
+
+@media (max-width: 320px) {
+  #wrapper {
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 1px;
+ 
+  }
+
+  .nav-items {
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 40px;
+    margin-top: 9px;
+  
+  }
+
+  .hero-section {
+    flex-direction: column;
+    text-align: left;
+   
+
+  }
+
+  .hero-section-heading {
+    font-size: 24px;
+  }
+
+  .hero-section-sub-heading {
+    font-size: 20px;
+  }
+
+  .hero-section-description {
+    flex-wrap: wrap;
+    font-size: 14px;
+    width: 80%;
+  }
+
+  .btn-pink {
+    font-size: 14px;
+    padding: 0.6rem 1.5rem;
+  }
+
+  .project-card {
+    width: 100%;
+    height: 250px;
+  }
+  .project-heading{
+    margin-top: 30px;
+    
+  }
+
+  .project-content {
+
+    padding: 1em;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .skills-logo {
+    width: 60px;
+  }
+  .education-section{
+   width: 30%;
+    margin-right: 50px;
+  }
+  .education-container{
+    justify-content: left;
+    align-items: left;
+    width:100%;
+    margin-right: 500px;
+    
+  }
+  .ignou{
+    width:100%;
+    margin-right: 40px;
+  }
+  .education-details{
+    width:100%;
+    margin-right: 110px;
+  
+  }
+
+  .certification-card {
+    width:100%;
+    margin-right: 200px;
+  }
+
+  .contact-section{
+    width:100%;
+  }
+  .contact-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hh{
+    width:100%;
+    margin-right: 10px;
+  }
+  .p2{
+    display: none;
+  }
+
+  .footer {
+    padding: 2rem;
+    text-align: left;
+  }
+
+  .footer-wrapper {
+    flex-direction: row;
+    gap: 1px;
+  }
+}
+
+
+
+
